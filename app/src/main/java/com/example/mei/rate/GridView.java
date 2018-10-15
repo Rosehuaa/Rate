@@ -3,7 +3,6 @@ package com.example.mei.rate;
 import android.os.Bundle;
 import android.app.Activity;
 
-import com.example.shan.week3.R;
 
 public class GridView extends Activity {
 
