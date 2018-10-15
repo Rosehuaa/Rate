@@ -4,14 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mei.rate.GridView">
-
-    <GridView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:columnWidth="100dp"
-        android:numColumns="3"
-        android:id="@+id/mylist" />
-
+    tools:context="com.example.mei.rate.MyList2Activity">
 
 </android.support.constraint.ConstraintLayout>

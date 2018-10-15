@@ -12,4 +12,5 @@
     <string name="add3">FREE THROW</string>
     <string name="btn_reset">RESET</string>
     <string name="title_activity_grid_view">GridView</string>
+    <string name="title_activity_my_list2">MyList2Activity</string>
 </resources>

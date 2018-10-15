@@ -6,6 +6,8 @@ import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.SimpleAdapter;
@@ -21,6 +23,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import static android.content.ContentValues.TAG;
+
 public class RateListActivity extends ListActivity implements Runnable{
 
     private String[] list_data={"one","two","three","four"};
@@ -31,7 +35,10 @@ public class RateListActivity extends ListActivity implements Runnable{
 //    适配器
     private SimpleAdapter listItemAdapter;
 
+
+
     @Override
+    //单列显示
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 ///       setContentView(R.layout.activity_rate_list);
@@ -63,6 +70,7 @@ public class RateListActivity extends ListActivity implements Runnable{
           }
         };
     }
+
 
     public void run(){
         //获取网络数据，放入List带回
