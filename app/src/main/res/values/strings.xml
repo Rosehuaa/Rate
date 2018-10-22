@@ -13,4 +13,11 @@
     <string name="btn_reset">RESET</string>
     <string name="title_activity_grid_view">GridView</string>
     <string name="title_activity_my_list2">MyList2Activity</string>
+    <string name="hello_world">hello_world</string>
+    <string name="func">func</string>
+    <string name="settings">settings</string>
+    <string name="rdo_home_label">首页</string>
+    <string name="rdo_func_label">功能</string>
+    <string name="rdo_setting_label">设置</string>
+
 </resources>
